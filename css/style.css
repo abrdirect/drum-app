@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("../img/bg.jpg");
+    background-color: #333;
     font-family: sans-serif;
     color: white;
 }
@@ -22,7 +22,7 @@ h2 {
 
 .container {
     width: 90%;
-    height: 100vh;
+    height: 40vh;
     margin: auto;
 }
 
@@ -55,4 +55,10 @@ kbd {
 .key:active {
     box-shadow: none;
     transform: translateX(2px) translateY(2px);
+}
+
+img {
+    fill: white;
+    display: block;
+    margin: auto;
 }
