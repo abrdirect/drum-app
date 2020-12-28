@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum App</title>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <audio id="clap" src="sounds/clap.wav"></audio>
+    <audio id="hihat" src="sounds/hihat.wav"></audio>
+    <audio id="kick" src="sounds/kick.wav"></audio>
+    <audio id="openhat" src="sounds/openhat.wav"></audio>
+    <audio id="boom" src="sounds/boom.wav"></audio>
+    <audio id="ride" src="sounds/ride.wav"></audio>
+    <audio id="snare" src="sounds/snare.wav"></audio>
+    <audio id="tom" src="sounds/tom.wav"></audio>
+    <audio id="tink" src="sounds/tink.wav"></audio>
+
+
+    <h1>Simple Drum App with Vanilla JS</h1>
+    <h2>Click on the instruments</h2>
+
+    <div class="container">
+        <div class="keys">
+            <div id="A" class="key" onclick="playClap()">
+                <span>CLAP</span>
+            </div>
+            <div id="S" class="key" onclick="playHiHat()">
+                <span>HIHAT</span>
+            </div>
+            <div id="D" class="key" onclick="playKick()">
+                <span>KICK</span>
+            </div>
+            <div id="F" class="key" onclick="playOpenHat()">
+                <span>OPENHAT</span>
+            </div>
+            <div id="G" class="key" onclick="playBoom()">
+                <span>BOOM</span>
+            </div>
+            <div id="H" class="key" onclick="playRide()">
+                <span>RIDE</span>
+            </div>
+            <div id="J" class="key" onclick="playSnare()">
+                <span>SNARE</span>
+            </div>
+            <div id="K" class="key" onclick="playTom()">
+                <span>TOM</span>
+            </div>
+            <div id="L" class="key" onclick="playTink()">
+                <span>TINK</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+
+
+</body>
+</html>
