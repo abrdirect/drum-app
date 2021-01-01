@@ -43,6 +43,7 @@ h2 {
     border: 1px solid white;
     border-radius: 3px;
     box-shadow: 4px 4px white;
+    cursor: pointer;
 }
 
 kbd {
